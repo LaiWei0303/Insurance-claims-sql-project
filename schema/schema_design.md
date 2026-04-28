@@ -3,20 +3,20 @@
 - Stores customer information
 - Primary Key: CustomerID
 ### Policies
-  Stores insurance policies linked to customers
-  Primary Key: PolicyID
+- Stores insurance policies linked to customers
+- Primary Key: PolicyID
 ### Claims
-  Stores claims made against policies
-  Primary Key: ClaimID
+- Stores claims made against policies
+- Primary Key: ClaimID
 ### PolicyTypes
-  Defines types of policies
-  Primary Key: PolicyTypeID
+- Defines types of policies
+- Primary Key: PolicyTypeID
 
 ## Relationships
 
 ### Table relation
-  One customer can have many policies (1 to n)
-  One policy can have many claims (1 to n)
+  -- One customer can have many policies (1 to n)
+  -- One policy can have many claims (1 to n)
   Many policy belongs to one policy type (n to 1)
 
 ### Foreign Key connection
