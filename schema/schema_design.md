@@ -1,3 +1,4 @@
+## Tables
 - Customers
   Stores customer information
 - Policies
