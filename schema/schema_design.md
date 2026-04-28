@@ -1,7 +1,7 @@
 ## Tables
 ### Customers
-Stores customer information
-  Primary Key: CustomerID
+- Stores customer information
+- Primary Key: CustomerID
 ### Policies
   Stores insurance policies linked to customers
   Primary Key: PolicyID
