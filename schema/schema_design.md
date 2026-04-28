@@ -1,25 +1,25 @@
 ## Tables
-# Customers
+### Customers
   Stores customer information
   Primary Key: CustomerID
-# Policies
+### Policies
   Stores insurance policies linked to customers
   Primary Key: PolicyID
-# Claims
+### Claims
   Stores claims made against policies
   Primary Key: ClaimID
-# PolicyTypes
+### PolicyTypes
   Defines types of policies
   Primary Key: PolicyTypeID
 
 ## Relationships
 
-# Table relation
+### Table relation
   One customer can have many policies (1 to n)
   One policy can have many claims (1 to n)
   Many policy belongs to one policy type (n to 1)
 
-# Foreign Key connection
+### Foreign Key connection
   Policies.CustomerID → Customers.CustomerID
   Policies.PolicyTypeID → PolicyTypes.PolicyTypeID
   Claims.PolicyID → Policies.PolicyID
